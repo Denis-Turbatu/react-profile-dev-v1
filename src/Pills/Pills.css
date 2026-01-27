@@ -1,0 +1,47 @@
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pill {
+  padding: 5px 15px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: white;
+  background-color: #555; /* default */
+}
+
+.pill-red {
+  background-color: #e53e3e;
+}
+
+.pill-yellow {
+  background-color: #d69e2e;
+  color: #333;
+}
+
+.pill-green {
+  background-color: #38a169;
+}
+
+.pill-blue {
+  background-color: #3182ce;
+}
+
+.pill-orange {
+  background-color: #dd6b20;
+}
+
+.pill-purple {
+  background-color: #805ad5;
+}
+
+.pill-pink {
+  background-color: #d53f8c;
+}
+
+.pill-gray {
+  background-color: #718096;
+}
