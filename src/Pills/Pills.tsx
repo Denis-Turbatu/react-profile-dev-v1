@@ -66,7 +66,9 @@ function Pills() {
 
           return (
             <p key={index} className={`pill pill-${randomColor}`}>
-              {item.skill}
+              {item.skill} {" "}
+              {item.level === "Beginner" ? "🤓": 
+                item.level === "Intermediate" ? "👍️" : "💪"}
             </p>
           );
         })}
